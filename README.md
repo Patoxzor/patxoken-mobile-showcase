@@ -51,7 +51,7 @@ decrypts it with a shared scheme, and persists it in secure storage behind a bio
 
 ```mermaid
 flowchart LR
-    DESKTOP["🖥️ Patxoken desktop\n(Python · Fernet encrypt)"] -- "encrypted QR" --> SCAN
+    DESKTOP["🖥️ Patxoken desktop<br/>(Python · Fernet encrypt)"] -- "encrypted QR" --> SCAN
     subgraph APP["📱 Patxoken Mobile (Flutter)"]
         BIO["👆 biometric gate"] --> SCAN["📷 mobile_scanner"]
         SCAN --> DEC["🔓 Fernet decrypt"]
