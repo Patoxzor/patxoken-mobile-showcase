@@ -26,9 +26,9 @@ Python desktop client.
 
 ## 📸 Screenshots
 
-| Token list | Import via QR | Biometric lock |
-|---|---|---|
-| _(screenshot)_ | _(screenshot)_ | _(screenshot)_ |
+| Token list | Settings |
+|---|---|
+| ![Account list with live TOTP codes and countdown](assets/token-list.jpg) | ![Settings: device ID, license, QR import and copy options](assets/settings.jpg) |
 
 ---
 
